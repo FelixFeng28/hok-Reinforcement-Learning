@@ -133,3 +133,16 @@ recovery**.
 This repository includes the current trained checkpoint, **V7.22 · 1.10M**,
 so that its behavior can be independently evaluated against the fixed Common
 AI setup reported above.
+
+## Verified checkpoint
+
+### V7.22 · step 1,100,000
+
+The reproducibility bundle contains the archived checkpoint, manifest, SHA256
+checksums, and the corresponding source snapshot.
+
+- [Download and verify the checkpoint bundle](https://github.com/FelixFeng28/hok-Reinforcement-Learning/releases/tag/v7.22-1100000)
+- Artifact: `checkpoint/model.pth`
+- Validation: SHA256 + manifest + archived source snapshot
+- Note: reproducing game evaluation requires an independently configured,
+  licensed HoK 1v1/GameCore environment.
